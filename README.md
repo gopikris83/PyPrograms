@@ -1,3 +1,3 @@
 # Python Utility Programs
 
-## This repo has the utility programs which are interesting ones.
+## This repo has the interesting python programs.
