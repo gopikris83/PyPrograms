@@ -5,19 +5,19 @@ from pprint import pprint
 # Defines the meaning for the given word
 def word_meaning(word):
     dictionary = PyDictionary()
-    return "The word does not exist. Please double check it" if dictionary.meaning(word) is None else str(', '.join(str(e) for e in dictionary.meaning(word).values()))
+    return "The word does not exist. Please check the word" if dictionary.meaning(word) is None else str(', '.join(str(e) for e in dictionary.meaning(word).values()))
     
 
 # Defines the synonym  for the given word
 def word_synonym(word):
     dictionary = PyDictionary()
-    return "The word does not exist. Please double check it" if dictionary.synonym(word) is None else ', '.join(str(e) for e in dictionary.synonym(word))
+    return "The word does not exist. Please check the word" if dictionary.synonym(word) is None else ', '.join(str(e) for e in dictionary.synonym(word))
     
 
 # Defines the antonym for the given word
 def word_antonym(word):
     dictionary = PyDictionary()
-    return "The word does not exist. Please double check it" if dictionary.antonym(word) is None else ', '.join(str(e) for e in dictionary.antonym(word))
+    return "The word does not exist. Please check the word" if dictionary.antonym(word) is None else ', '.join(str(e) for e in dictionary.antonym(word))
     
 
 # Translates the word into Swedish
